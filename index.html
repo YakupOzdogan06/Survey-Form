@@ -1,68 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="">
-     <div>
-     <hr>
-    <h1>Clarusway Survey Form</h1>
-    <p>Thank you for taking the time to help us improve the platform</p>
-    <label for="name">Name</label>
-    <br><br>
-    <input type="text" name="name_1" id="name" placeholder="Enter your name" required>
-    <br>
-    <label for="surname">Surname</label>
-    <br><br>
-    <input type="text" name="surname_1" id="surname" placeholder="Enter your Surname" required>
-    <br>
-    <label for="email">Email</label>
-    <br><br>
-    <input type="email" name="mail_address" id="email" placeholder="user@clarusway.com" required>
-    <br>
-    <label for="role">Which option best describes your current role?</label>
-    <br><br>
-    <select name="roles" id="role" >
-        <optgroup label="Select an option">
+      <div>
+        <hr />
+        <h1>Clarusway Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+        <label for="name">Name</label>
+        <br /><br />
+        <input
+          type="text"
+          name="name_1"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+        <br />
+        <label for="surname">Surname</label>
+        <br /><br />
+        <input
+          type="text"
+          name="surname_1"
+          id="surname"
+          placeholder="Enter your Surname"
+          required
+        />
+        <br />
+        <label for="email">Email</label>
+        <br /><br />
+        <input
+          type="email"
+          name="mail_address"
+          id="email"
+          placeholder="user@clarusway.com"
+          required
+        />
+        <br />
+        <label for="role">Which option best describes your current role?</label>
+        <br /><br />
+        <select name="roles" id="role">
+          <optgroup label="Select an option">
+            <option value="Courses">Courses</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Mentors">Mentors</option>
+          </optgroup>
+        </select>
+        <br /><br />
 
-        
-        <option value="Courses">Courses</option>
-        <option value="Projects">Projects</option>
-        <option value="Community">Community</option>
-        <option value="Mentors">Mentors</option>
-
-    </optgroup>
-    
-
-
-    </select>
-    <br><br>
-
-    <label for="apply">What would you like to see improved? (Check all that apply)</label>
-    <br><br>
-    <input type="checkbox" name="options_for_path" id="apply">
-    <label for="apply">Front-end Projects</label>
-    <br><br>
-    <input type="checkbox" name="path_2" id="Back-end">
-    <label for="Back-end">Back-end Projects</label>
-    <br><br>
-    <input type="checkbox" name="path_3" id="Data">
-    <label for="Data">Data Science</label>
-    <br><br>
-    <input type="checkbox" name="path_4" id="additional">
-    <label for="additional">Additional Courses</label>
-    <br><br>
-    <label for="comment">Any comments or suggestions?</label>
-    <br>
-    <textarea name="Comment" id="comment" cols="50" rows="10" placeholder="enter your comment"  ></textarea>
-    <input type="submit" name="comment" value="Submit">
-    
-    </div>
-   </form>
-    
-</body>
+        <label for="apply"
+          >What would you like to see improved? (Check all that apply)</label
+        >
+        <br /><br />
+        <input type="checkbox" name="options_for_path" id="apply" />
+        <label for="apply">Front-end Projects</label>
+        <br /><br />
+        <input type="checkbox" name="path_2" id="Back-end" />
+        <label for="Back-end">Back-end Projects</label>
+        <br /><br />
+        <input type="checkbox" name="path_3" id="Data" />
+        <label for="Data">Data Science</label>
+        <br /><br />
+        <input type="checkbox" name="path_4" id="additional" />
+        <label for="additional">Additional Courses</label>
+        <br /><br />
+        <label for="comment">Any comments or suggestions?</label>
+        <br />
+        <textarea
+          name="Comment"
+          id="comment"
+          cols="50"
+          rows="10"
+          placeholder="enter your comment"
+        ></textarea>
+        <input type="submit" name="comment" value="Submit" />
+      </div>
+    </form>
+  </body>
 </html>
